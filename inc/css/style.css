@@ -1,0 +1,92 @@
+@font-face {
+    font-family: qs_Bold;
+    src: url(../font/qs_Bold.otf);
+}
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background: url('../img/background.jpg');
+    font-family: qs_Bold;
+}
+
+table{
+    margin: 0 auto;
+}
+
+#container{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container h1{
+	font-size: 35px;
+	font-family: qs_Bold;
+}
+
+#container p{
+	font-size: 14px;
+	font-family: qs_Bold;
+}
+
+#settings img {
+    padding: 18px;
+    height: 24px;
+    font-size: 10px;
+    line-height: 24px;
+}
+ 
+#settings a {
+    padding: 18px;
+    height: 24px;
+    font-size: 10px;
+    line-height: 24px;
+}
+
+.nav {
+    background: #232323;
+    height: 60px;
+    display: inline-block;
+}
+ 
+.nav li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+
+.nav li a {
+    font-size: 16px;
+    color: white;
+    display: block;
+    line-height: 60px;
+    padding: 0 26px;
+    text-decoration: none;
+    border-left: 1px solid #2e2e2e;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.nav li a:hover {
+    background-color: #2e2e2e;
+}
+
+.nav li img {
+    font-size: 16px;
+    color: white;
+    display: block;
+    line-height: 60px;
+    padding: 0 26px;
+    text-decoration: none;
+    border-left: 1px solid #2e2e2e;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.nav li img:hover {
+    background-color: #2e2e2e;
+}

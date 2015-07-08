@@ -1,0 +1,3 @@
+rhn = raad het nummer
+
+sps = steen papier schaar
